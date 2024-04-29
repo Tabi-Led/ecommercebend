@@ -1,3 +1,4 @@
+-- Active: 1711074002989@@127.0.0.1@3306@ecommerce_db
 -- DROP DATABASE
 DROP DATABASE IF EXISTS ecommerce_db;
 
@@ -5,29 +6,6 @@ DROP DATABASE IF EXISTS ecommerce_db;
 CREATE DATABASE ecommerce_db;
 
 USE ecommerce_db;
-DROP TABLE CATEGORY;
-CREATE TABLE Category (
-    id INT not null AUTO_INCREMENT,
-    name VARCHAR(255) not null,
-    PRIMARY KEY (id)
-    
-);
-
-CREATE TABLE product (
-    id int not NULL
-    INTEGER
-    name VARCHAR(255) not null,
-    PRIMARY KEY (id)
-    AUTO_INCREMENT
-    product name
-    string
-    INTEGER not NULL
-    price
-    DECIMAL INTEGER not null VARCHAR(10)
-validates value is numeric
-category id
-INTEGER
-references the category model);
 
 -- CREATE TABLE PERSON (
 --     id INT not null,
